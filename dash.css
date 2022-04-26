@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family:'Poppins', sans-serif;
+    
+}
+section{
+   margin-left: 300px;
+   width: auto;
+   height: 712px;
+   background-color:#d0c8c8;
+   
+}
+.header h3{
+    padding: 20px 20px 12px 20px;
+    text-align: left;
+    font-weight: 600;
+}
+.boxes{
+    padding:0px 10px 0px 20px;
+}
+.total-boxes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+.single-box{
+    display: flex;
+    justify-content: space-between;
+    background: #f4f4f4;
+    padding: 1.5rem;
+    border-radius: 2px;
+}
+.single-box div:last-child span{
+    font-size: 3rem;
+    color: #095e6f;
+}
+.single-box div:first-child span{
+    font-size: 20px;
+}
+.single-box a{
+    float: left;
+    color: #095e6f;
+}
+.app-table{
+    margin-top: 10px;
+    background-color: #f4f4f4;
+    /* box-shadow: 0px 0px 10px rgba(0,0,0,0.5) ; */
+    margin-left: 20px;
+    height: 400px;
+    margin-right: 20px;
+    padding:20px 0px 10px 0px;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 2px;
+}
+
+.table-content{
+    border-collapse: collapse; 
+    margin-top: 0px;
+    width: 100%;
+    font-size: 17px;
+    border-radius:0;
+    overflow: hidden;
+    
+ }
+ h4{
+    padding: 0px 0px 12px 12px;
+    text-align: left;
+    font-weight: 600;
+}
+
+ .table-content thead th{
+     background-color: #c9d1d3 ;
+     color: #095e6f;
+     text-align: left;
+     font-weight: 600;
+ }
+ .table-content th,
+ .table-content td {
+     padding: 12px;
+ }
+ .table-content tbody tr{
+     border-bottom: 1px solid #dddddd;
+ }
+ .table-content tbody tr:nth-of-type(even){
+     background-color: #f3f3f3;
+     
+ }
+ .table-content tbody tr:last-of-type{
+     border-bottom: 2px solid #095e6f;
+ }

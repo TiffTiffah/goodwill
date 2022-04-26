@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="patientreg.css">
+    <title>Patient Registration</title>
+</head>
+<body>
+
+    <header>
+		<div class="logo">
+			<a href="#">GOODWILL</a>
+		</div>
+		<div class="nav">
+			<a href="#">Home</a>
+			<a href="#about">About</a>
+			<a href="#Contact">Contact</a>
+		</div>
+		<div class="Sign">
+			<button><a href="login.html">Login</a></button>
+			<button><a href="signup.html">Sign-Up</a></button>
+		</div>
+	</header>
+   <section class="reg">
+       <h1>Registration Form</h1>
+
+
+
+
+       <form action="patientreg.php" method="POST">
+		<div class="input-container">
+			<input type="text" name="name" placeholder="Fullname" required>
+			<label for="name">Fullname</label>
+		</div>
+
+		<div class="input-container">
+			<input type="text" name="username" placeholder="Username" required>
+			<label for="username">Username</label>
+		</div>
+
+		<div class="input-container">
+			<input type="date" name="dob" required>
+			<label for="dob">Date of Birth</label>
+		</div>
+
+		<div class="input-container">
+			<input type="date" name="date_reg" required>
+			<label for="dor">Date of Registration</label>
+		</div>
+
+
+		<div class="input-container">
+			<input type="text" name="email" placeholder="Email" required>
+			<label for="email">Email</label>
+		</div>
+
+		<div class="input-container">
+			<input type="text" name="mobileno" placeholder="Mobile number" required>
+			<label for="mobileno">Mobile Number</label>
+		</div>
+
+		<div class="input-container">
+			<input type="text" name="weight" placeholder="Weight" required>
+			<label for="weight">Weight</label>
+		</div>
+
+		<div class="input-container">
+			<input type="text" name="height" placeholder="Height" required>
+			<label for="height">Height</label>
+		</div>
+
+
+		<div class="input-container">
+			<span>Gender</span>
+              <select name="gender" id="" required>
+				  <option></option>
+				  <option value="male">Male</option>
+				  <option value="female">Female</option>
+			  </select>
+			
+		</div>
+
+
+		<div class="input-container">
+
+			<span>Blood Group</span>
+			
+			<select name="bloodgrp" id="" required>
+				<option value=""></option>
+				<option value="A+">A+</option>
+				<option value="A-">A-</option>
+				<option value="B+">B+</option>
+				<option value="B-">B-</option>
+				<option value="AB+">AB-</option>
+				<option value="O+">O+</option>
+				<option value="O-">O-</option>
+			</select>
+			  
+		</div>
+
+
+		<br>
+	  
+        
+
+		     <div class="submitbtn">
+				<input type="submit" value="Register">
+			 </div>
+
+           
+       </form>
+
+   </section>
+</body>
+</html>

@@ -1,0 +1,145 @@
+section{
+    margin-left: 300px;
+    width: auto;
+    height: 712px;
+    background-color:#f4f4f4;
+    padding-top: 0px;
+    
+ }
+
+.reg{
+    
+    background-color: rgb(255, 255, 255,0.3);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5) ;
+    width: 800px;
+    max-width: 800px;
+    padding:25px 30px 10px 40px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+h1{
+    font-size: 32px;
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+}
+.input-container{
+    margin-top: 20px;
+    position: relative;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 17px;
+}
+.input-container input{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove #000;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    color: #0b6879;
+    z-index: 1;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+::placeholder{
+    color: transparent;
+}
+.input-container label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    font-size: 17px;
+    transition: 0.5s;
+    z-index: 0;
+    color: #333;
+    font-weight: 600;
+  }
+  input:focus + label {
+    top: -18px;
+    left: 3px;
+    z-index: 10;
+    font-size: 17px;
+    color:#333;
+    font-weight: 600;
+    
+  }
+  
+  input:not(:placeholder-shown)+ label {
+    top: -18px;
+    left: 3px;
+    z-index: 10;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .input-container select{
+    margin-top: 20px;
+    width: 100%;
+    outline: none;
+    background: transparent;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: 4px groove #000;
+    color:#0b6879;
+    padding-left: 18px;
+    font-weight: 600;
+    font-size: 16px;
+    
+
+  }
+  .input-container option{
+    padding-left: 20px;
+  }
+  .input-container  span{
+    position: absolute;
+    left: x;
+    top: -2px;
+    padding: 0 4px;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+    color: #333;
+    font-weight: 600;
+  }
+
+  select :focus + span{
+    bottom: 18px;
+    left: 3px;
+    z-index: 10;
+    font-size: 16px;
+    color:#333;
+    font-weight: 600;
+  }
+  
+ 
+  .submitbtn input{
+    
+    align-content: center;
+    padding: 5px 30px;
+    border: none;
+    background-color: #1999af;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    
+
+  }
+  
+  .submitbtn input:hover {
+    background-color: #094752;
+    transform: translateY(-2px);
+  }
